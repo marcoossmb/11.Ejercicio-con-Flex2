@@ -112,6 +112,12 @@ body {
   justify-content: center;
   align-items: center;
 }
+.card__gho-ter{
+  align-items: end;
+}
+.card__gho-cua{
+  align-items: center;
+}
 
 
 .card-flex__img{
