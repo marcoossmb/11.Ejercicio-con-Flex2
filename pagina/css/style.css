@@ -95,20 +95,32 @@ body {
   flex-direction: column;
   padding: 15px;
   width: 30%;
+  border-radius: 3px;
 }
 
+.cord__bord{
+  border: 1px solid #60C3DB;
+  border-radius: 3px;
+}
 .card__gho-pri{
   display: flex;
   flex-direction: row-reverse;
-  border: 1px solid #60C3DB;
   justify-content: center;
 }
+.card__gho-sec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .card-flex__img{
-  width: 200px;
+  width: 55%;
   margin: 20px 20px 20px 20px; 
 }
 .card-flex__text{
-  margin: 20px 20px 20px 20px;
   text-align: justify;
+  width: 40%;
+  margin: 10px;
+  font-size: 13.8px;
 }
