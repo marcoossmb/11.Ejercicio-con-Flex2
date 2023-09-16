@@ -1,0 +1,7 @@
+color texto --> 999
+color bordes --> 60C3DB
+color de fondo --> 404347
+ 
+
+--------------------------------------------------------
+ fuente --> arial

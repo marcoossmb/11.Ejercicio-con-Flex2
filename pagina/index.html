@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Maquetación con FLEX</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div class="contenedor">
+    <header class="header">
+      <h1 class="header__title">Maquetación con Flex</h1>
+    </header>
+
+    <!-- Sección para la primera fila con el menú y las imagenes  -->
+    <section class="primera-fila">
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link">Inicio</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Servicios</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Productos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Quienes Somos</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="section">
+        <article class="section__imagen-grande">
+          <img class="section__img-peq" src="imagenes/foto1.jpg" />
+          <p class="text_img">Esta imagen en el HTML esta en primer lugar pero en el navegador debe aparecer en segundo lugar, utilizando
+            las propiedades de flex</p>
+        </article>
+
+        <article class="section__imagen-peque">
+          <img class="section__img" src="imagenes/foto2.jpg" />
+          <h4 class="text_img-grand">Esta imagen en el HTML esta en segundo lugar pero en el navegador debe aparecer en primer lugar,utilizando
+            las propiedades de flex </h4>
+        </article>
+      </section>
+    </section>
+
+    <!-- Seeción de las tarjetas con dos articles uno para tarjeta -->
+    <section class="cards">
+      <article class="card">
+        <img class="card__img" src="imagenes/cocina.jpg" />
+
+        <div class="card__text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cum placeat repellendus aliquid odit.
+          </p>
+
+          <p>Aliquid libero quibusdam eos incidunt quo accusantium itaque veritatis reprehenderit optio provident
+            nostrum, ipsam aliquam voluptate officia voluptatem magni, vitae nisi error! Perferendis natus temporibus
+            eaque commodi eligendi a, deserunt.
+          </p>
+        </div>
+      </article>
+
+      <article class="card">
+        <img class="card__img" src="imagenes/edificio.jpg" />
+
+        <div class="card__text">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque cum placeat repellendus aliquid odit
+            nisi esse excepturi deserunt iste cupiditate tempore facilis, perspiciatis quam, fugiat consequuntur
+            soluta ratione aperiam voluptates.
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <!-- Galeria con diferente estilos flex -->
+    <section class="cards-flex">
+
+      <!-- Primera Columna -->
+      <section class="card-flex">
+        <!-- Caja -->
+        <div class="card__gho-pri">
+          <img class="card-flex__img" src="imagenes/foto5.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto5.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto5.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto5.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </section>
+
+      <!-- Segunda Columna -->
+      <section class="card-flex">
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto6.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit ame</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto6.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit ame</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto6.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit ame</p>
+        </div>
+      </section>
+
+      <!-- Tercera Columna -->
+      <section class="card-flex">
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto7.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit ame</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto7.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit ame</p>
+        </div>
+
+        <!-- Caja -->
+        <div class="">
+          <img class="card-flex__img" src="imagenes/foto7.jpg" />
+          <p class="card-flex__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+      </section>
+    </section>
+
+    <footer class="footer">
+      <p>IES Ribera del Tajo</p>
+    </footer>
+  </div>
+</body>
+
+</html>
