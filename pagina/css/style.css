@@ -130,11 +130,14 @@ body {
   align-items: center;
 }
 .card__cel-sec{
-  
+  align-items: start;
 }
 .card__cel-ter{
-  
+  align-items: end;
+  flex-direction: column-reverse;
 }
+
+/* Tercera columna */
 
 
 /* Estilos texto e imagenes */
