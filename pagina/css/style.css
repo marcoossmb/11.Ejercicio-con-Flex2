@@ -94,14 +94,21 @@ body {
   display: flex;
   flex-direction: column;
   padding: 15px;
+  width: 30%;
 }
-.card-flex__img{
-  width: 250px;
-}
-.card-flex__text{
-  width: 150px;
-}
+
 .card__gho-pri{
   display: flex;
   flex-direction: row-reverse;
+  border: 1px solid #60C3DB;
+  justify-content: center;
+}
+
+.card-flex__img{
+  width: 200px;
+  margin: 20px 20px 20px 20px; 
+}
+.card-flex__text{
+  margin: 20px 20px 20px 20px;
+  text-align: justify;
 }
