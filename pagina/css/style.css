@@ -93,7 +93,8 @@ body {
   border: 1px solid #60C3DB;
   display: flex;
   flex-direction: column;
-  padding: 15px;
+  justify-content: space-around;
+  padding: 10px 10px 10px 10px;
   width: 30%;
   border-radius: 3px;
 }
@@ -102,6 +103,8 @@ body {
   border: 1px solid #60C3DB;
   border-radius: 3px;
 }
+
+/* Primera columna */
 .card__gho-pri{
   display: flex;
   flex-direction: row-reverse;
@@ -119,14 +122,29 @@ body {
   align-items: center;
 }
 
+/* Segunda columna */
+.card__cel-pri{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card__cel-sec{
+  
+}
+.card__cel-ter{
+  
+}
 
+
+/* Estilos texto e imagenes */
 .card-flex__img{
   width: 55%;
   margin: 20px 20px 20px 20px; 
 }
 .card-flex__text{
   text-align: justify;
-  width: 40%;
+  width: 50%;
   margin: 10px;
   font-size: 13.8px;
 }
